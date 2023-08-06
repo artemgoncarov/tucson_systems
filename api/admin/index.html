@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const vk_id = 534563953; // Замените на актуальный vk_id
+
+        fetch(`https://artemgoncarov.online/api/admin/getInfo.php?vk_id=${vk_id}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data); // Здесь вы получите данные в формате JSON с символами в кодировке UTF-8
+                // Можете использовать полученные данные для отображения на странице
+                // Например:
+                // const name = data.name;
+                // const surname = data.surname;
+                // ... дальнейшие действия с данными ...
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+
+</html>

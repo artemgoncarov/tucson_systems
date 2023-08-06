@@ -1,0 +1,96 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.jumbotron {
+    background-image: url('https://example.com/background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 150px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.main {
+    background-image: url('https://kartinkin.net/uploads/posts/2021-07/1626766989_29-kartinkin-com-p-fon-dlya-prevyu-samp-krasivo-31.jpg');
+}
+
+.rt {
+    position: absolute;
+    right: 3%;
+}
+
+.image {
+    max-width: 40px;
+    vertical-align: middle;
+}
+
+.name-surname {
+    justify-content: center;
+    align-items: center;
+    border-right: 10px;
+}
+
+.lk {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    /* background-color: #dc3545; */
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    display: none;
+}
+
+.square {
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+.profile {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>API Test</title>
+</head>
+
+<body>
+
+    <div id="output"></div>
+
+    <script>
+        const vk_id = 534563953; // Замените на актуальный vk_id
+
+        fetch(`https://artemgoncarov.online/test-api/api.php?vk_id=${vk_id}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data); // Здесь вы получите данные в формате JSON
+                // Можете использовать полученные данные для отображения на странице
+                // Например:
+                // const name = data.name;
+                // const surname = data.surname;
+                // ... дальнейшие действия с данными ...
+            })
+            .catch(error => console.error('Error:', error));
+
+    </script>
+
+</body>
+
+</html>

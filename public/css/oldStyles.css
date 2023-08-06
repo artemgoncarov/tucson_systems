@@ -1,0 +1,151 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+thead th,
+tbody td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px 0 0 0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #444;
+}
+
+.quest-controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.edit-button {
+  background-color: #2196F3;
+}
+
+.edit-button:hover {
+  background-color: #0b7dda;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+}
+
+/* Добавим стили для последней ячейки в строке */
+tbody td:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+/* Добавим стили для заголовка таблицы */
+thead th:first-child {
+  border-radius: 0 10px 0 0;
+}
+
+/* ... остальные стили ... */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* Добавим выравнивание по краям */
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.nav-btn:hover {
+  background-color: #3e8e41;
+}
+
+.nav-btn.register-button {
+  background-color: #2196F3;
+}
+
+.nav-btn.register-button:hover {
+  background-color: #0b7dda;
+}
+
+.nav-btn.login-button {
+  background-color: #f44336;
+}
+
+.nav-btn.login-button:hover {
+  background-color: #da190b;
+}
+
+.image {
+  max-width: 40px;
+  vertical-align: middle;
+}
+
+.name-surname {
+  justify-content: center;
+  align-items: center;
+  border-right: 10px;
+}
+
+.lk {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  display: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
