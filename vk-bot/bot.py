@@ -4,10 +4,10 @@ import json
 import asyncio
 from main import VprikolAPI
 
-TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzU0MjU1MmZkOTdjMzMyMzY1MzhhZCIsIm1ldGhvZHMiOlsibWVtYmVycyIsImZpbmQiXSwiYW50aWZsb29kX2J5cGFzcyI6ZmFsc2UsImFkbWluX2FjY2VzcyI6ZmFsc2UsImV4cCI6MjQ0NzUxMzUwN30.ETE2v8MeuRGpKbwDhSLAEt36lPAp5UcuxQKuq4eZXXY'
+TOKEN = ''
 
 client = VprikolAPI(TOKEN)
-token = "vk1.a.8OPg20Go_qsngSwWpQzD11Om0ZMyUbGQ__xeCj80EBvoM5x5wdEH0LV9kLcch3zK0Dausv0mLtHb--SZc3E6-ImvQKKpU8TeB7P2iby6hF3QcXtNP_AdfrWXGpRSM0WOx0F6eNHywZeH1IykcLvBsm7bsCV5DuEuBUYZE-8evnB8wQ2SSKlE8ret1PZg3fOGFtUh977YINtlj1JwxOMolA"
+token = ""
 
 bot = Bot(token=token)
 
